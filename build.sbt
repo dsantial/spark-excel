@@ -2,13 +2,13 @@ name := "spark-excel"
 
 organization := "com.crealytics"
 
-crossScalaVersions := Seq("2.11.12", "2.10.6")
+crossScalaVersions := Seq("2.12.8", "2.11.12")
 
 scalaVersion := crossScalaVersions.value.head
 
 spName := "crealytics/spark-excel"
 
-sparkVersion := "2.3.1"
+sparkVersion := "2.4.0"
 
 val testSparkVersion = settingKey[String]("The version of Spark to test against.")
 
